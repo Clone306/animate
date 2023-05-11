@@ -17,6 +17,8 @@
 //     }
 // });
 // AOS.init();
+let myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+let carousel = new bootstrap.Carousel(myCarousel)
                //Variables///
 let g1 = document.querySelector(".g1")
 let g2 = document.querySelector(".g2")               
