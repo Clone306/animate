@@ -17,8 +17,8 @@
 //     }
 // });
 // AOS.init();
-// let myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-// let carousel = new bootstrap.Carousel(myCarousel)
+let myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+let carousel = new bootstrap.Carousel(myCarousel)
 $(document).ready(function() {
     $("#carouselExampleSlidesOnly").swiperight(function() {
        $(this).carousel('prev');
