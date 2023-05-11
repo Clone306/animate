@@ -135,3 +135,11 @@
         padding: 11rem 1rem ;
     }
 }
+@media screen and (max-width:385px) {
+    .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+        border-radius: 100%;
+       }   
+}
