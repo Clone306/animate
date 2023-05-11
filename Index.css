@@ -467,4 +467,12 @@ right: -10px;
         width: 0;
       
     }
+.carousel-indicators
+{
+    position: absolute;
+    top:500px;
+    left: 0; 
+    right: 0;
+    bottom:0 ;
+}
 
