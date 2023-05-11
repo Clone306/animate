@@ -17,8 +17,16 @@
 //     }
 // });
 // AOS.init();
-let myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-let carousel = new bootstrap.Carousel(myCarousel)
+// let myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+// let carousel = new bootstrap.Carousel(myCarousel)
+$(document).ready(function() {
+    $("#carouselExampleSlidesOnly").swiperight(function() {
+       $(this).carousel('prev');
+     });
+    $("#carouselExampleSlidesOnly").swipeleft(function() {
+       $(this).carousel('next');
+    });
+ });
                //Variables///
 let g1 = document.querySelector(".g1")
 let g2 = document.querySelector(".g2")               
